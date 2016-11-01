@@ -1,0 +1,23 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWorld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <RadioButton x:Name="radioButton" Content="Hamburger&#xD;&#xA;" HorizontalAlignment="Left" Margin="133,216,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton1" Content="Chicker Burger&#xD;&#xA;" HorizontalAlignment="Left" Margin="133,237,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton2" Content="Veggie Burger&#xD;&#xA;" HorizontalAlignment="Left" Margin="133,258,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Click Me" HorizontalAlignment="Left" Margin="334,53,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button" Content="Press Me" HorizontalAlignment="Left" Margin="334,91,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="334,131,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="334,185,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Donegal&#xD;&#xA;" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Dublin" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <Label x:Name="label" Content="I am a label&#xD;&#xA;" HorizontalAlignment="Left" Margin="56,113,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
